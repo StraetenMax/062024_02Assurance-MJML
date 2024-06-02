@@ -1,0 +1,40 @@
+extends templates/_layout
+block content
+        //- bandeau Esa
+        mj-section(padding='0')
+            mj-column(width='600px')
+                mj-image(alt='+40 postes à pourvoir en alternance chez nos entreprises partenaires' src='https://i.ibb.co/PmvMPfV/bandeau-Let.gif')/
+        //- logo Ecosup Assurance
+        mj-section(background-color='#ffffff' padding-bottom='0')
+            mj-column(width='250px')
+                mj-image(src='https://img.mailinblue.com/3403292/images/content_library/original/6631e75e524b5b6d34b88b1b.png' alt='Logo Ecosup Assurance')/
+        //- introduction à l'annonce et titre de l'annonce
+        mj-section(background-color='#ffffff' padding-bottom='0')
+            mj-column(width='500px')
+                mj-text(font-size='16px' font-weight='300' line-height='20px' color='#2D3748') #[strong {{contact.PRENOM}}] cette annonce correspond à votre recherche d'une alternance dans les métiers de l'assurance et de la banque.
+                mj-text(align='center' font-size='16px' font-weight='900' line-height='20px' color='#684092' text-transform='uppercase' padding-top='0' padding-bottom='0') #[span(style='color:#D30000;') Poste] à la une 
+                mj-text(align='center' font-size='38px' font-weight='300' line-height='42px' color='#684092') Gestionnaire indemnisation (IARD)
+        //- Entreprise Lieu Durée
+        mj-section(background-color='#ffffff' padding='0')
+            mj-column(width='50px')
+                mj-image(padding='10px 0' alt='Icon Entreprise' src='https://i.ibb.co/1GKXZN1/Entreprise04-Assurance.png')/
+            mj-column(width='450px')
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-bottom='0') #[strong(style='color:#684092;text-transform:uppercase') Entreprise :] Courtier en assurance, cette entreprise régionale indépendante travaille avec de nombreuses assurances et dispose d'un #[span(style='font-weight:700') service d'indemnisation] (IARD) destiné aux particuliers ainsi qu'aux professionnels.
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0') #[strong(style='color:#684092;text-transform:uppercase') Lieu :] Roubaix
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-bottom='0' padding-top='0') #[strong(style='color:#684092;text-transform:uppercase') Durée :] 12 mois / possibilité de CDI
+        //- Mission
+        mj-section(background-color='#ffffff' padding-top='0')
+            mj-column(width='50px')
+                mj-image(padding='10px 0' alt='Icon mission' src='https://i.ibb.co/K7Q2WDH/Fusee04-Assurance.png')/
+            mj-column(width='450px')
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='0') #[strong Missions :]
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0')
+                    ul(style='margin-top: 0;list-style:square;') 
+                        li J'instruis, gère et prends en charge les dossiers de sinistre déclarés par les clients (accidents auto, moto, vol, dégat des eaux),
+                        li Je vérifie les garanties souscrites,
+                        li Je détermine les responsabilités et j'évalue le préjudice,
+                        li Je suis l'interlocuteur des clients et des compagnies d'assurance avec lesquelles travaille l'entreprise.
+        //- call to action
+        mj-section(background-color='#ffffff' padding='0')
+            mj-column(width='500px')
+                mj-button(css-class='hover' href='https://ecosup-assurance.fr/gestionnaire-indemnisation/') Postuler Maintenant
