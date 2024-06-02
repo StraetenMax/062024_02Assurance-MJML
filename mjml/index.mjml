@@ -1,7 +1,7 @@
 
 <mjml>
   <mj-head>
-    <mj-title>Annonce Poste Ref11</mj-title>
+    <mj-title>Opération Taxe Apprentissage 2024</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"/>
     <mj-raw>
       <meta name="color-scheme" content="light"></meta>
@@ -19,14 +19,9 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#edf2f7">
-    <mj-section padding="0">
-      <mj-column width="600px">
-        <mj-image alt="+40 postes à pourvoir en alternance chez nos entreprises partenaires" src="https://i.ibb.co/PmvMPfV/bandeau-Let.gif"/>
-      </mj-column>
-    </mj-section>
     <mj-section background-color="#ffffff" padding-bottom="0">
       <mj-column width="250px">
-        <mj-image src="https://img.mailinblue.com/3403292/images/content_library/original/6631e75e524b5b6d34b88b1b.png" alt="Logo Ecosup Assurance"/>
+        <mj-image width="140px" src="https://img.mailinblue.com/3403292/images/content_library/original/6631e75e524b5b6d34b88b1b.png" alt="Logo Ecosup Assurance"/>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-bottom="0">
@@ -51,15 +46,8 @@
         <mj-image padding="10px 0" alt="Icon mission" src="https://i.ibb.co/K7Q2WDH/Fusee04-Assurance.png"/>
       </mj-column>
       <mj-column width="450px">
-        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#684092" text-transform="uppercase" align="left" padding-top="0" padding-bottom="0"><strong>Missions :</strong></mj-text>
-        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0" padding-bottom="0">
-          <ul style="margin-top: 0;list-style:square;"> 
-            <li>J'instruis, gère et prends en charge les dossiers de sinistre déclarés par les clients (accidents auto, moto, vol, dégat des eaux),</li>
-            <li>Je vérifie les garanties souscrites,</li>
-            <li>Je détermine les responsabilités et j'évalue le préjudice,</li>
-            <li>Je suis l'interlocuteur des clients et des compagnies d'assurance avec lesquelles travaille l'entreprise.</li>
-          </ul>
-        </mj-text>
+        <mj-text font-size="16px" line-height="20px" font-weight="700" color="#684092" text-transform="uppercase" align="left" padding-top="0" padding-bottom="0">- Financement de l'apprentissage et des formations :</mj-text>
+        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Votre taxe d'apprentissage permet de financer notre BTS Assurance et Bachelor Chargé(e) de Clientèles en Assurance et Banque voire l’ouverture de notre Mastère par apprentissage.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
@@ -72,7 +60,7 @@
         <mj-image width="120px" alt="logo Ecosup-Campus" src="https://img.mailinblue.com/3403292/images/content_library/original/660d606e373b24d832a39719.png"/>
         <mj-text font-size="12px" line-height="16px" font-weight="400" color="#2D3748" align="center" padding-top="0" padding-bottom="0">
           <div>17 place Charles et Albert Roussel</div>
-          <div style="text-transform:uppercase">tourcoing</div>
+          <div style="text-transform:uppercase;">tourcoing</div>
         </mj-text>
       </mj-column>
     </mj-section>
