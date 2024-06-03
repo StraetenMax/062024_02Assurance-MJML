@@ -12,12 +12,66 @@ block content
                 mj-text(align='center' font-size='38px' font-weight='300' line-height='42px' color='#684092') Gestionnaire indemnisation (IARD)
         //- Entreprise Lieu Durée
         mj-section(background-color='#ffffff' padding='0')
-            //-mj-column(width='50px')
+            mj-column(width='50px')
                 mj-image(padding='10px 0' alt='Icon Entreprise' src='https://i.ibb.co/1GKXZN1/Entreprise04-Assurance.png')/
             mj-column(width='450px')
                 mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-bottom='0') #[strong(style='color:#684092;text-transform:uppercase') Entreprise :] Courtier en assurance, cette entreprise régionale indépendante travaille avec de nombreuses assurances et dispose d'un #[span(style='font-weight:700') service d'indemnisation] (IARD) destiné aux particuliers ainsi qu'aux professionnels.
                 mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0') #[strong(style='color:#684092;text-transform:uppercase') Lieu :] Roubaix       
+        //- Titre argument
+        mj-section(background-color='#ffffff' padding-bottom='0')
+            mj-column(width='500px')
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='5px') Pourquoi choisir Ecosup Assurance
+        //- Argument 01
+        mj-section(background-color='#ffffff' padding-top='0')
+            mj-column(width='50px')
+                mj-image(padding='10px 0' alt='Icon mission' src='https://i.ibb.co/K7Q2WDH/Fusee04-Assurance.png')/
+            mj-column(width='450px')
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='0') Financement de l'apprentissage
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0') Votre taxe d'apprentissage permet de financer notre #[span(style='font-weight:500;') BTS Assurance et Bachelor Chargé(e) de Clientèles en Assurance et Banque] par l'apprentissage.
+        //- Argument 02
+        mj-section(background-color='#ffffff' padding-top='0')
+            mj-column(width='50px')
+                mj-image(padding='10px 0' alt='Icon mission' src='https://i.ibb.co/K7Q2WDH/Fusee04-Assurance.png')/
+            mj-column(width='450px')
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='0') Développement des compétences
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0') En versant la taxe à #[span(style='font-weight:500') Ecosup Assurance], #[span(style='font-weight:700;') {{contact.ENTREPRISE}}] soutient le développement des compétences nécessaires pour répondre aux besoins des métiers de l'Assurance et de la Banque.
+        //- Argument 03
+        mj-section(background-color='#ffffff' padding-top='0')
+            mj-column(width='50px')
+                mj-image(padding='10px 0' alt='Icon mission' src='https://i.ibb.co/K7Q2WDH/Fusee04-Assurance.png')/
+            mj-column(width='450px')
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='0') Soutien à l'insertion professionnelle
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0') Le versement de cette taxe à #[span(style='font-weight:500;') Ecosup Assurance], organisme de formation, aide à l'insertion professionnelle des jeunes.
+        //- Argument 04
+        mj-section(background-color='#ffffff' padding-top='0')
+            mj-column(width='50px')
+                mj-image(padding='10px 0' alt='Icon mission' src='https://i.ibb.co/K7Q2WDH/Fusee04-Assurance.png')/
+            mj-column(width='450px')
+                    mj-text(font-size='16px' line-height='20px' font-weight='700' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='0') Avantages pour votre entreprise
+                    mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0') En versant la taxe d'apprentissage, #[span(style='font-weight:700;') {{contact.ENTREPRISE}}] peut bénéficier d'une exonération si elle emploie des apprentis et respecte certaines conditions.
+        //- Argument 05
+        mj-section(background-color='#ffffff' padding-top='0')
+            mj-column(width='50px')
+                mj-image(padding='10px 0' alt='Icon mission' src='https://i.ibb.co/K7Q2WDH/Fusee04-Assurance.png')/
+            mj-column(width='450px')
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='0') Contribution à l'économie
+                mj-text(font-size='16px' line-height='20px' font-weight='400' color='#2D3748' align='left' padding-top='0' padding-bottom='0') En soutenant nos formations supérieures en apprentissage, #[span(style='font-weight:700;') {{contact.ENTREPRISE}}] contribue indirectement à la croissance économique en formant une main-d'œuvre qualifiée.
         //- call to action
         mj-section(background-color='#ffffff' padding='0')
             mj-column(width='500px')
-                mj-button(css-class='hover' href='https://ecosup-assurance.fr/gestionnaire-indemnisation/') Postuler Maintenant
+                mj-button(css-class='hover' href='https://ecosup-assurance.fr/gestionnaire-indemnisation/') Je soutiens Ecosup Assurance
+        //- Signature
+        mj-section(background-color='#ffffff')
+            mj-group(width='450px')
+                mj-column(width='40%')
+                    mj-image(align='right' width='120px' src='https://i.ibb.co/DkTGx9w/Christianjpo25052024.jpg' alt='Christian Annaloro, responsable pédagogique d\'Ecosup Campus')
+                mj-column(width='60%')
+                    mj-text(align='left' font-size='16px' font-weight='400' line-height='20px') Merci de votre soutien
+                    mj-text(align='left' padding-bottom='0' font-size='16px' font-weight='700' line-height='20px') Christian #[span(style='text-transform:uppercase;') Annaloro]
+                    mj-text(align='left' padding-top='0' padding-bottom='0' font-size='16px' font-weight='400' line-height='20px') Responsable pédagogique
+                    mj-text(align='left' padding-top='0' font-size='16px' font-weight='400' line-height='20px') Ecosup Assurance
+        //- Comment
+        mj-section(background-color='#ffffff' padding-bottom='0')
+            mj-column(width='500px')
+                mj-text(font-size='16px' line-height='20px' font-weight='700' color='#684092' text-transform='uppercase' align ='left' padding-top='0' padding-bottom='5px') Comment verser la taxe d'apprentissage
+
