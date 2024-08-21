@@ -38,7 +38,7 @@
       </mj-column>
       <mj-column width="450px">
         <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-bottom="0">Contribution obligatoire, la <span style="font-weight:500">taxe d'apprentissage</span> offre la liberté... celle de choisir l'organisme de formation que votre entreprise souhaite soutenir. <span style="font-weight:500;">Vous avez la main !</span></mj-text>
-        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0">Alors, donnez du sens à votre contribution, optez pour <span style="font-weight:500;text-transform:uppercase;">Ecosup Assurance</span> - code UAI <span style="font-weight:500;">0595877T</span>.</mj-text>
+        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0">Alors, donnez du sens à votre contribution, optez pour <span style="font-weight:500;text-transform:uppercase;color:#93278F;">Ecosup Assurance</span> - code UAI <span style="font-weight:500;color:#93278F;">0595877T</span>.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-bottom="0">
@@ -52,7 +52,7 @@
       </mj-column>
       <mj-column width="450px">
         <mj-text font-size="16px" line-height="20px" font-weight="700" color="#684092" text-transform="uppercase" align="left" padding-top="0" padding-bottom="0">Financement de l'apprentissage</mj-text>
-        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Votre taxe d'apprentissage permet de financer notre <span style="font-weight:500;">BTS Assurance</span> et <span style="font-weight:500;">Bachelor Chargé(e) de Clientèles en Assurance et Banque</span>.</mj-text>
+        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Votre taxe d'apprentissage permet de financer nos <span style="font-weight:500;">BTS Assurance</span> et <span style="font-weight:500;">Bachelor Chargé(e) de Clientèles en Assurance et Banque</span>.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
@@ -61,7 +61,7 @@
       </mj-column>
       <mj-column width="450px">
         <mj-text font-size="16px" line-height="20px" font-weight="700" color="#684092" text-transform="uppercase" align="left" padding-top="0" padding-bottom="0">Développement des compétences</mj-text>
-        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0" padding-bottom="0">En versant la taxe à <span style="font-weight:500;text-transform:uppercase">Ecosup Assurance</span>, votre entreprise favorise le développement des compétences nécessaires pour répondre aux besoins des métiers de l'Assurance et de la Banque.</mj-text>
+        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0" padding-bottom="0">En versant la taxe à <span style="font-weight:500;text-transform:uppercase;color:#93278F;">Ecosup Assurance</span>, votre entreprise favorise le développement des compétences nécessaires pour répondre aux besoins des métiers de l'Assurance et de la Banque.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
@@ -70,7 +70,7 @@
       </mj-column>
       <mj-column width="450px">
         <mj-text font-size="16px" line-height="20px" font-weight="700" color="#684092" text-transform="uppercase" align="left" padding-top="0" padding-bottom="0">Soutien à l'insertion professionnelle</mj-text>
-        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Le versement de cette taxe à <span style="font-weight:500;text-transform:uppercase;">Ecosup Assurance</span>, organisme de formation, aide à l'insertion professionnelle des jeunes.</mj-text>
+        <mj-text font-size="16px" line-height="20px" font-weight="400" color="#2D3748" align="left" padding-top="0" padding-bottom="0">Le versement de cette taxe à <span style="font-weight:500;text-transform:uppercase;color:#93278F;">Ecosup Assurance</span>, organisme de formation, aide à l'insertion professionnelle des jeunes.</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
